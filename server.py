@@ -12,10 +12,6 @@ app.secret_key = 'SECRETSECRETSECRET'
 # more useful (you should remove this line in production though)
 app.config['PRESERVE_CONTEXT_ON_EXCEPTION'] = True
 
-
-API_KEY = os.environ[o21rSU5LiTrxDvr2UGKPTjVJIrDZp1Wm]
-
-
 @app.route('/')
 def homepage():
     """Show homepage."""
